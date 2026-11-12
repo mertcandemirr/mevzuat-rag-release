@@ -1,0 +1,56 @@
+# Yerel ortam ayarları ve kimlik bilgileri
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+service-account*.json
+
+# Python ve JavaScript ortamları
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+*.egg-info/
+
+# Yerel çalışma, önbellek ve kullanıcı kayıtları
+.runtime/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage/
+.coverage
+htmlcov/
+logs/
+audit/
+reports/
+backups/
+tmp/
+*.log
+*.pid
+*.sqlite*
+*.db
+*.bak
+
+# Model ağırlıkları; gerekli FAISS başlangıç indeksi depoda kalır
+models/
+*.safetensors
+*.gguf
+*.ggml
+pytorch_model*.bin
+
+# Makineye özgü dosyalar ve iç teslim kayıtları
+.DS_Store
+._*
+.idea/
+.vscode/
+TESLIM_RAPORU.md
+docker-test-sonuclari.json

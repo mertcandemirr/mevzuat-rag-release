@@ -1,0 +1,23 @@
+{
+  "embedding": "intfloat/multilingual-e5-base",
+  "revision": "d128750597153bb5987e10b1c3493a34e5a4502a",
+  "dimension": 768,
+  "corpus_hash": "1e34d2f6ad733e840edd1c74a685268755fe6ce3bf5799e345b84de585d57cd1",
+  "rows": 4288,
+  "representation": "law_title + law_number + article_number + article_title + text",
+  "batch_size": 4,
+  "query_prefix": "query: ",
+  "passage_prefix": "passage: ",
+  "normalized": true,
+  "measurement": {
+    "seconds": 26.63724295794964,
+    "peak_mps_allocated_bytes_sampled": 1167566592,
+    "peak_mps_driver_bytes_sampled": 2308816896,
+    "peak_process_rss_bytes_sampled": 1798012928,
+    "peak_system_used_bytes_sampled": 8833597440,
+    "available_at_start_bytes": 5098930176,
+    "rss_note": "20 ms sampled RSS; not total unified GPU allocation. MPS/MLX allocator peaks reported separately."
+  },
+  "index_bytes": 13172781,
+  "index_sha256": "d1783be2c6611d4f266bdc8d1a3086270ec291dc7233dc2cb07562f8a5a08173"
+}

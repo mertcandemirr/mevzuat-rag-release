@@ -1,0 +1,51 @@
+x-common: &common
+  build: .
+  image: mevzuat-release-api:local
+  restart: unless-stopped
+  security_opt: [no-new-privileges:true]
+  cap_drop: [ALL]
+  extra_hosts: ["host.docker.internal:host-gateway"]
+services:
+  backend:
+    <<: *common
+    environment:
+      MEVZUAT_LLM_URL: ${MEVZUAT_LLM_URL:-http://host.docker.internal:8012}
+      INDEX_DIR: ${INDEX_DIR:-/app/data/index}
+    volumes:
+      - ./data:/app/data:ro
+      - hf-cache:/cache
+      - indexes:/indexes
+    ports: ["127.0.0.1:${API_PORT:-8021}:8011"]
+    healthcheck:
+      test: ["CMD","python","-c","import urllib.request; urllib.request.urlopen('http://localhost:8011/api/health',timeout=5)"]
+      interval: 10s
+      timeout: 8s
+      retries: 12
+      start_period: 5m
+  frontend:
+    build: ./frontend
+    restart: unless-stopped
+    security_opt: [no-new-privileges:true]
+    cap_drop: [ALL]
+    depends_on:
+      backend: {condition: service_healthy}
+    ports: ["127.0.0.1:${WEB_PORT:-8080}:8080"]
+    healthcheck:
+      test: ["CMD","wget","-q","-O","/dev/null","http://127.0.0.1:8080/"]
+      interval: 20s
+  worker:
+    <<: *common
+    profiles: [ollama]
+    command: ["uvicorn","backend.ollama_worker:app","--host","0.0.0.0","--port","8012"]
+    environment:
+      OLLAMA_URL: ${OLLAMA_URL:-http://host.docker.internal:11434}
+    volumes: [hf-cache:/cache]
+  ollama:
+    image: ollama/ollama:latest
+    profiles: [linux-model]
+    restart: unless-stopped
+    volumes: [ollama-models:/root/.ollama]
+volumes:
+  hf-cache:
+  indexes:
+  ollama-models:

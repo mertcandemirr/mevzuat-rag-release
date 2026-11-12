@@ -1,0 +1,143 @@
+[
+  {
+    "law": "1475",
+    "name": "İŞ KANUNU",
+    "source": "https://mevzuat.adalet.gov.tr/mevzuat/104983",
+    "snapshot": "2026-10-31",
+    "mirror_revision": "8857a27f5ceb8edaf292224b4e030def3453bf32",
+    "articles": 1,
+    "chunks": 7,
+    "files": {
+      "1475.md": "6a0ea489f96d23142974ffe206a4d3ee475c7cc4f8ef861ea1d3496e9d46cd73",
+      "1475.html": "3cd045ffeddbec9097886b887f158f8d840f3f07079d91defda5d682839901d2"
+    },
+    "version": "8857a27f5ceb8edaf292224b4e030def3453bf32"
+  },
+  {
+    "law": "2709",
+    "name": "Türkiye Cumhuriyeti Anayasası",
+    "source": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2709.pdf",
+    "snapshot": "2026-11-01",
+    "mirror_revision": null,
+    "articles": 198,
+    "chunks": 774,
+    "files": {
+      "2709.pdf": "58de994c36ae00e6dc86c00b886c808d7bee1a2306b9ac35bf8aec9e8d297d1f"
+    },
+    "version": "pdf:58de994c36ae00e6dc86c00b886c808d7bee1a2306b9ac35bf8aec9e8d297d1f",
+    "downloaded_at": "2026-11-01T10:46:51.187858+00:00"
+  },
+  {
+    "law": "3071",
+    "name": "Dilekçe Hakkının Kullanılmasına Dair Kanun",
+    "source": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.3071.pdf",
+    "snapshot": "2026-11-01",
+    "mirror_revision": null,
+    "articles": 12,
+    "chunks": 24,
+    "files": {
+      "3071.pdf": "21442b7ba8bbf53b65535057fdf152887742b64814bf708b1b2635bcc0a99cff"
+    },
+    "version": "pdf:21442b7ba8bbf53b65535057fdf152887742b64814bf708b1b2635bcc0a99cff",
+    "downloaded_at": "2026-11-01T10:46:52.373058+00:00"
+  },
+  {
+    "law": "4749",
+    "name": "Kamu Finansmanı ve Borç Yönetiminin Düzenlenmesi Hakkında Kanun",
+    "source": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.4749.pdf",
+    "snapshot": "2026-11-01",
+    "mirror_revision": null,
+    "articles": 72,
+    "chunks": 363,
+    "files": {
+      "4749.pdf": "0056e15fd789344aa76f81f28ca502717c66923487e5962a586fd75d35f4b53c"
+    },
+    "version": "pdf:0056e15fd789344aa76f81f28ca502717c66923487e5962a586fd75d35f4b53c",
+    "downloaded_at": "2026-11-01T10:46:53.147159+00:00"
+  },
+  {
+    "law": "4857",
+    "name": "İş Kanunu",
+    "source": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.4857.pdf",
+    "snapshot": "2026-11-01",
+    "mirror_revision": "8857a27f5ceb8edaf292224b4e030def3453bf32",
+    "articles": 137,
+    "chunks": 551,
+    "files": {
+      "4857.md": "1c74c338c62068609115e30118c7d8a9060ca648282ca0aa6e50ddc31ad21daf",
+      "4857.pdf": "cd75c7fe92bd438443549c3e973e7ea6d03137e9a6bb2652aded52a8ca95e84e"
+    },
+    "version": "pdf:cd75c7fe92bd438443549c3e973e7ea6d03137e9a6bb2652aded52a8ca95e84e",
+    "downloaded_at": "2026-11-01T10:46:51.886071+00:00"
+  },
+  {
+    "law": "4982",
+    "name": "Bilgi Edinme Hakkı Kanunu",
+    "source": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.4982.pdf",
+    "snapshot": "2026-11-01",
+    "mirror_revision": null,
+    "articles": 33,
+    "chunks": 87,
+    "files": {
+      "4982.pdf": "f3eff295a1f572e206161a6621c7d829dc2c4b589bfa5bc294801d61586ef45c"
+    },
+    "version": "pdf:f3eff295a1f572e206161a6621c7d829dc2c4b589bfa5bc294801d61586ef45c",
+    "downloaded_at": "2026-11-01T10:46:52.126593+00:00"
+  },
+  {
+    "law": "5018",
+    "name": "Kamu Mali Yönetimi ve Kontrol Kanunu",
+    "source": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.5018.pdf",
+    "snapshot": "2026-11-01",
+    "mirror_revision": null,
+    "articles": 115,
+    "chunks": 538,
+    "files": {
+      "5018.pdf": "5d684bcc1728abe8ba3f117fd7fdaf4d7b16c846a3417d86c9fe26c0b25dfdc5"
+    },
+    "version": "pdf:5d684bcc1728abe8ba3f117fd7fdaf4d7b16c846a3417d86c9fe26c0b25dfdc5",
+    "downloaded_at": "2026-11-01T10:46:52.881862+00:00"
+  },
+  {
+    "law": "6098",
+    "name": "TÜRK BORÇLAR KANUNU",
+    "source": "https://mevzuat.adalet.gov.tr/mevzuat/103273",
+    "snapshot": "2026-10-31",
+    "mirror_revision": "8857a27f5ceb8edaf292224b4e030def3453bf32",
+    "articles": 651,
+    "chunks": 1453,
+    "files": {
+      "6098.md": "b4b85016a263375f4c2b90d9e5d49212b94ab1e7ef1ec05369183631165b3dcf",
+      "6098.html": "e4692517000746c9fbc707cad2310327fdfdf60173f8857863315fc9eeea33ef"
+    },
+    "version": "snapshot-2026-10-31"
+  },
+  {
+    "law": "6698",
+    "name": "KİŞİSEL VERİLERİN KORUNMASI KANUNU",
+    "source": "https://mevzuat.adalet.gov.tr/mevzuat/104383",
+    "snapshot": "2026-10-31",
+    "mirror_revision": "8857a27f5ceb8edaf292224b4e030def3453bf32",
+    "articles": 36,
+    "chunks": 291,
+    "files": {
+      "6698.md": "41da65b11dd474dc2053bfc69292bd5bdc604ff787121f8ec16b40bf58be73c8",
+      "6698.html": "6996db803bb6d7c1cf4820cfe989b391599f6f5882bfd5ae768adcde1524ac31"
+    },
+    "version": "snapshot-2026-10-31"
+  },
+  {
+    "law": "7201",
+    "name": "Tebligat Kanunu",
+    "source": "https://www.mevzuat.gov.tr/MevzuatMetin/1.3.7201.pdf",
+    "snapshot": "2026-11-01",
+    "mirror_revision": null,
+    "articles": 71,
+    "chunks": 200,
+    "files": {
+      "7201.pdf": "2ff76852a3e806f42849f70e8e2cb38f644201c3ba2593d6dbecb719cb3e5d8b"
+    },
+    "version": "pdf:2ff76852a3e806f42849f70e8e2cb38f644201c3ba2593d6dbecb719cb3e5d8b",
+    "downloaded_at": "2026-11-01T10:46:52.611753+00:00"
+  }
+]
